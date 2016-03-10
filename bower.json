@@ -1,0 +1,22 @@
+{
+  "name": "simple-sum-axis",
+  "authors": [
+    "Victor Volovik <victor.volovik@inbox.ru>"
+  ],
+  "description": "simple sum axis example with validation",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "victorvolovik.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
