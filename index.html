@@ -7,8 +7,30 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <h1>Hello!</h1>
-
+    <div class="main">
+        <div class="addition">
+            <span id="first-term-pre" data-term="7">7</span>
+            +
+            <span id="second-term-pre" data-term="4">4</span>
+            =
+            <input id="sum" type="text" name="sum" value="?" maxlength="2">
+        </div>
+        <div class="axis">
+            <div class="terms">
+                <div class="first-term-visual">
+                    <div class="ruler">
+                        <input id="first-term" class="terms-input" type="text" name="first-term" value="" maxlength="1">
+                    </div>
+                </div>
+                <div class="second-term-visual">
+                    <div class="ruler">
+                        <input id="second-term" class="terms-input" type="text" name="second-term" value="" maxlength="1">
+                    </div>
+                </div>
+            </div>
+            <img class="axis-image" src="images/sprite.png" alt="Axis image" />
+        </div>
+    </div>
     <script src="scripts/main.js" charset="utf-8"></script>
 </body>
 </html>
