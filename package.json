@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "simple sum axis example with validation",
   "main": "index.html",
+  "repository": "VictorVolovik/simple-sum-axis",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
