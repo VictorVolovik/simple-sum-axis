@@ -26,4 +26,4 @@ gulp watch
 
 ## Demo
 
-(http://victorvolovik.com/)
+http://victorvolovik.com/
