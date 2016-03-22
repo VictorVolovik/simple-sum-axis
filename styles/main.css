@@ -58,7 +58,6 @@ input[disabled] {
   position: absolute;
   bottom: 120%;
   left: calc(50% - 16px);
-
 }
 
 .terms {
@@ -72,7 +71,7 @@ input[disabled] {
 
 .first-term-visual, .second-term-visual {
   display: inline-block;
-  visibility:hidden;
+  visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s 0.5s ease-in-out;
 }
