@@ -46,8 +46,8 @@ var renderTerms = function (a, b) {
   secondTermPre.text(b);
 };
 
-// evaluate visual rulers accroding to values of terms
-var evaluteVisual = function () {
+// evaluate visual rulers according to values of terms
+var calculateVisual = function () {
   var firstCurrentWidth = 20 * firstTerm;
   var firstCurrentHeight = firstCurrentWidth / 2;
   firstTermVisual.css({'width': firstCurrentWidth + 'px'});
@@ -70,7 +70,7 @@ var evaluteVisual = function () {
 $(document).ready(function () {
   generateTerms();
   renderTerms(firstTerm, secondTerm);
-  evaluteVisual();
+  calculateVisual();
 
   // checking for mousemove to focus on 1st input
   $(document).on('mousemove', function () {
@@ -109,7 +109,7 @@ $(document).ready(function () {
   });
 
   // validation of sum input
-  $(sum).on('keyup', function () {
+  $(sumInput).on('keyup', function () {
     if(+$(this).val() !== sumOfTerms) {
       $(this).addClass('invalid');
     } else {
