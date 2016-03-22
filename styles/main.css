@@ -13,13 +13,17 @@ html {
 body {
   font-size: 16px;
 }
-/**/
+
 input {
   display: inline-block;
   height: 32px;
   width: 32px;
   font-size: inherit;
   text-align: center;
+}
+
+input[disabled] {
+  background: white;
 }
 
 .invalid {
